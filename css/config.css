@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Nirmala UI';
+    src: url('assets/fonts/Nirmala.ttf');
+}
+
+@font-face {
+
+    font-family: 'Franklin Gothic Heavy';
+    src: url('assets/fonts/franklin-gothic-heavy.ttf');
+}
+
+
+:root {
+    --color-orange: #FF9A33;
+    --color-medium-blue:#205375;
+    --color-dark-blue:#00092C;
+    --color-turquoise:#00B8B5;
+    --color-white:#FFFFFF;
+}
+
+h1,h2,h3 {
+    font-family: 'Franklin Gothic Heavy';
+}
+h1 {
+    color:var(--color-medium-blue);
+    font-size: 50px;
+}
+
+h2 {
+color:var(--color-white);
+font-size: 50px
+
+}
+
+h3 { 
+    color:var(--color-white);
+    font-size: 38px
+}
+
+p, span,a {
+    font-family: 'Nirmala UI';
+}
+ 
