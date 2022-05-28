@@ -44,19 +44,28 @@ nav {
 
 .titulo-big{
     color:var(--color-medium-blue);
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 60px;
-    max-width: 735px;
+    max-width: 700px;
 
 }
 
 .home{
+    display: flex;
+    flex-direction: row;
+    margin: 120px 0 300px 0;
+
+}
+
+.home p{
     color:var(--color-medium-blue);
     font-size: 25px;
     margin-bottom: 43px;
-    max: width 264px;
+    max-width: 630px;
 
 }
+
+
 
 
 .button{
@@ -66,9 +75,28 @@ nav {
     border-radius: 20px;
     padding: 5px 40px;
     text-decoration: none;
-
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    font-size: 23px;
+    width: fit-content;
+    
+   
 }
 
 .lista li p {
     color:white;
+    font-size: 25px;
+}
+.backgroun2{
+ background: var(--color-dark-blue);
+ 
+}
+
+.home-text{
+    flex-direction: column;
+    width: 100%;
+}
+
+.home-image{
+    justify-content: flex-end;
+   
 }

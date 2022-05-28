@@ -41,3 +41,6 @@ p, span,a {
     font-family: 'Nirmala UI';
 }
  
+div {
+    display: flex;
+}
