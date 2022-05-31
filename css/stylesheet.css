@@ -82,14 +82,18 @@ nav {
    
 }
 
+.lista{
+    display: flex;
+    padding: 0;
+}
+
 .lista li p {
     color:white;
     font-size: 25px;
+    margin-right: 30px;
+    
 }
-.backgroun2{
- background: var(--color-dark-blue);
- 
-}
+
 
 .home-text{
     flex-direction: column;
@@ -99,4 +103,19 @@ nav {
 .home-image{
     justify-content: flex-end;
    
+}
+
+.backgroun2{
+    background: var(--color-dark-blue);
+    padding: 178px 8% 63px;
+  
+}
+
+.lista-image{
+    justify-content: space-between;
+    
+}
+
+.tituloh2{
+    color: var(--color-medium-blue);
 }

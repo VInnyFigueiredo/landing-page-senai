@@ -43,4 +43,9 @@ p, span,a {
  
 div {
     display: flex;
+
+}
+
+ul { 
+    list-style: none;
 }
