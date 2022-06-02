@@ -107,7 +107,7 @@ nav {
 
 .backgroun2{
     background: var(--color-dark-blue);
-    padding: 178px 8% 63px;
+    padding: 160px 8% 63px;
   
 }
 
@@ -118,4 +118,53 @@ nav {
 
 .tituloh2{
     color: var(--color-medium-blue);
+    font-size: 50px;
+}
+
+.background3{
+    padding: 140px 8% 63px;
+}
+
+.input{ 
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 850px;
+}
+
+.backgroundfooter{
+    background: var(--color-dark-blue);
+    padding: 140px 8% 63px;
+}
+
+.listafooter{
+        display: flex;
+        justify-content: space-between;
+        color:white;
+        font-size: 23px;
+}
+
+
+.redesocial li{
+    display: flex;
+    flex-direction: row;
+    margin:0 20px;
+    
+}
+
+.carta{ 
+    height: 15px
+}
+
+
+.backgroundfooter2{
+    color: var(--color-medium-blue);
+    padding: 140px 8% 63px;
+}
+
+.listafooter2{
+    display: flex;
+    justify-content: space-between;
+    color:#205375;
+    font-size: 23px;
 }
