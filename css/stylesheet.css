@@ -54,6 +54,7 @@ nav {
     display: flex;
     flex-direction: row;
     margin: 120px 0 300px 0;
+    position: relative;
 
 }
 
@@ -102,6 +103,9 @@ nav {
 
 .home-image{
     justify-content: flex-end;
+    position: absolute;
+    right: 8%;
+    top: -90px;
    
 }
 
@@ -113,6 +117,7 @@ nav {
 
 .lista-image{
     justify-content: space-between;
+    
     
 }
 
@@ -166,5 +171,31 @@ nav {
     display: flex;
     justify-content: space-between;
     color:#205375;
-    font-size: 23px;
+    font-size: 16px
+}
+
+.footer-link1{
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: var(--color-white);
+}
+
+.footer-link2{
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: var(--color-medium-blue)
+}
+
+.footer-h4{
+    color: var(--color-medium-blue);
+}
+
+
+.pote-de-racao{
+    position: relative;
+    bottom: -165px;
 }

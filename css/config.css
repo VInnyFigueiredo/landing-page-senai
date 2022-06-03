@@ -18,7 +18,7 @@
     --color-white:#FFFFFF;
 }
 
-h1,h2,h3 {
+h1,h2,h3, h4 {
     font-family: 'Franklin Gothic Heavy';
 }
 h1 {
@@ -35,6 +35,10 @@ font-size: 50px
 h3 { 
     color:var(--color-white);
     font-size: 38px
+}
+
+h4 { 
+    color: var(--color-white);
 }
 
 p, span,a {
