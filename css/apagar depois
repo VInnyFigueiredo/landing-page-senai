@@ -1,0 +1,86 @@
+let hour = prompt("digite um horario")
+
+if(hour == 0 || hour < 12){
+    alert("Bom dia!")
+} 
+
+ else if ( hour >= 12 && hour <= 18){
+     alert("Boa tarde!")
+
+ } else {
+     alert("Boa tarde!")
+ }
+  
+ 
+ 
+ Array=[ 'banana', 'maça', 'uva', 'pera','batata', 'ovos]
+
+ for (let index =0; index < array.lenght; index++) {
+   console.log("Item n" + index + ":" + array[index]}
+   
+
+   let index = 0 
+   while (index < array.length){
+     console.log("item:" + array[index])
+   }
+
+   padaria 
+  
+   Produto= [
+     {nome:"Leite", unidade:1,preco: 10};
+     {nome:"Pão", unidade:4, preco: 5};
+     {nome:"ovos", unidades:12, preco: 8};
+    ]
+
+   let compra= [
+   {produto: produto[0], quantidade: 2};
+   {produto: produto[1], quantidade: 8};
+   {produto: produto[2], quantidade: 12};
+   ]
+
+   for (let index = 0; index < compra.length; index++){
+     console.log(compra[index]);
+
+     let produto = compra[ bv b]
+     if (produto.nome == "leite"){
+
+     }
+
+
+
+
+
+
+
+
+     function imprimaArvore(3) {
+        for (let index-0;index < altura; index)
+
+
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      }
