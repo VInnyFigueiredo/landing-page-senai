@@ -20,6 +20,20 @@ $(document).ready(function () {
     })
  });
 
- function validarCampos() {}
+ function validarCampos(form) {
+    return true;
+ }
 
- function submeterFormulario() {}
+ function submeterFormulario(form) {
+    $.ajax ({
+        type: form.attr('method'),
+        URL: form.attr('action'),
+        data: form.serialize(),
+        Cache: false,
+        dataType: 'json',
+        contentType: "application/json; charset=utf-8",
+        error:function(err){
+
+        }
+    })
+}
