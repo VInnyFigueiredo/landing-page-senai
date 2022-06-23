@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="css/stylesheet.css"/>
+    <script type="text;javascript" src="script/jquery-3.6.0.min.js"></script>>
     <title>landing page - pet</title>
   </head>
 
@@ -62,21 +63,25 @@
 
       <section id="formulario" class="background3">
         <H2 class="tituloh2">Garanta sua amostra pagando apenas o frete.</H2>
-          <form> 
+        
+          <form action="https://gmail.us13.list-manage.com/subscribe/post?u=25a7a7cd815991a9151cbb4d5&amp;id=50c4b15128" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate></form>
 
             <div class="input">
               <label for="nome">Nome</label>
-              <input type="text"  placeholder="Ex: João">
+              <input type="text"  placeholder="Ex: João" name="FNAME">
             </div>
 
             <div class="input">
               <label for="cidade">Cidade</label>
-              <input type="text" placeholder="Ex: Birigui-sp">
+              <input type="text" placeholder="Ex: Birigui-sp" name="ADDRESS[city]">
+              <input type="text" placeholder="Rua" value="" maxlength="70" name="ADDRESS[addr1]" id="mce-ADDRESS-addr1" class="">
+              <input type="text"  placeholder="Estado" value="" maxlength="20" name="ADDRESS[state]" id="mce-ADDRESS-state" class="">
+              <input type="text" placeholder="CEP" value="" maxlength="10" name="ADDRESS[zip]" id="mce-ADDRESS-zip" class="">
             </div>
 
              <div class="input">
                 <label for="email">E-mail</label>
-                <input type="text" placeholder="Ex: Seuemail@gmail.com">
+                <input type="text" placeholder="Ex: Seuemail@gmail.com" name="EMAIL">                   
              </div>
 
                 <input type="submit" value="Pedir Amostra" class="button">
